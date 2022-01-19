@@ -1,0 +1,419 @@
+.container footer {
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  width: 1440px;
+  height: 598px;
+  top: 4932px;
+  background: rgba(236, 235, 255, 0.6);
+  z-index: -1;
+}
+
+.container footer .contentFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 900px;
+  height: 212.55px;
+  left: 270px;
+  top: 244.54px;
+}
+
+.container footer .contentFooter .product, .container footer .contentFooter .company, .container footer .contentFooter .support, .container footer .contentFooter .socialMedia {
+  margin-right: 165px;
+  position: static;
+  width: 97px;
+  height: 206px;
+  left: 0px;
+  top: 0px;
+}
+
+.container footer .contentFooter .product h3, .container footer .contentFooter .company h3, .container footer .contentFooter .support h3, .container footer .contentFooter .socialMedia h3 {
+  position: absolute;
+  width: 69px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2F2E41;
+}
+
+.container footer .contentFooter .product a, .container footer .contentFooter .company a, .container footer .contentFooter .support a, .container footer .contentFooter .socialMedia a {
+  position: absolute;
+  height: 26px;
+  left: 0;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717082;
+}
+
+.container footer .contentFooter .product a:nth-of-type(1), .container footer .contentFooter .company a:nth-of-type(1), .container footer .contentFooter .support a:nth-of-type(1), .container footer .contentFooter .socialMedia a:nth-of-type(1) {
+  width: 97px;
+  top: 44px;
+}
+
+.container footer .contentFooter .product a:nth-of-type(2), .container footer .contentFooter .company a:nth-of-type(2), .container footer .contentFooter .support a:nth-of-type(2), .container footer .contentFooter .socialMedia a:nth-of-type(2) {
+  width: 65px;
+  top: 78px;
+}
+
+.container footer .contentFooter .product a:nth-of-type(3), .container footer .contentFooter .company a:nth-of-type(3), .container footer .contentFooter .support a:nth-of-type(3), .container footer .contentFooter .socialMedia a:nth-of-type(3) {
+  width: 51px;
+  top: 112px;
+}
+
+.container footer .contentFooter .product a:nth-of-type(4), .container footer .contentFooter .company a:nth-of-type(4), .container footer .contentFooter .support a:nth-of-type(4), .container footer .contentFooter .socialMedia a:nth-of-type(4) {
+  width: 31px;
+  top: 146px;
+}
+
+.container footer .contentFooter .product a:nth-of-type(5), .container footer .contentFooter .company a:nth-of-type(5), .container footer .contentFooter .support a:nth-of-type(5), .container footer .contentFooter .socialMedia a:nth-of-type(5) {
+  width: 77px;
+  top: 180px;
+}
+
+.container footer .contentFooter .company {
+  position: static;
+  width: 101px;
+  left: 262px;
+}
+
+.container footer .contentFooter .company h3 {
+  width: 83px;
+  left: 263px;
+}
+
+.container footer .contentFooter .company a {
+  left: 262px;
+}
+
+.container footer .contentFooter .company a:nth-of-type(1) {
+  width: 46px;
+  top: 44px;
+}
+
+.container footer .contentFooter .company a:nth-of-type(2) {
+  width: 33px;
+  top: 78px;
+}
+
+.container footer .contentFooter .company a:nth-of-type(3) {
+  width: 88px;
+  top: 112px;
+}
+
+.container footer .contentFooter .company a:nth-of-type(4) {
+  width: 97px;
+  top: 146px;
+}
+
+.container footer .contentFooter .company a:nth-of-type(5) {
+  width: 101px;
+  top: 180px;
+}
+
+.container footer .contentFooter .support {
+  position: static;
+  width: 87px;
+  left: 528px;
+}
+
+.container footer .contentFooter .support h3 {
+  width: 70px;
+  left: 528px;
+}
+
+.container footer .contentFooter .support a {
+  left: 528px;
+}
+
+.container footer .contentFooter .support a:nth-of-type(1) {
+  width: 87px;
+  top: 44px;
+}
+
+.container footer .contentFooter .support a:nth-of-type(2) {
+  width: 80px;
+  top: 78px;
+}
+
+.container footer .contentFooter .socialMedia {
+  position: static;
+  width: 120px;
+  left: 780px;
+}
+
+.container footer .contentFooter .socialMedia h3 {
+  width: 107px;
+  left: 781px;
+}
+
+.container footer .contentFooter .socialMedia i {
+  position: absolute;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  top: 44px;
+  color: grey;
+}
+
+.container footer .contentFooter .socialMedia i:nth-of-type(1) {
+  left: 780px;
+}
+
+.container footer .contentFooter .socialMedia i:nth-of-type(2) {
+  left: 824px;
+}
+
+.container footer .contentFooter .socialMedia i:nth-of-type(3) {
+  left: 868px;
+}
+
+.container footer .bottomInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 1280px;
+  height: 23.3px;
+  left: 80px;
+  top: 534.57px;
+}
+
+.container footer .bottomInfo img {
+  position: static;
+  width: 60px;
+  height: 23.3px;
+  left: 0px;
+  top: 0px;
+}
+
+.container footer .bottomInfo p {
+  position: static;
+  width: 190px;
+  height: 16px;
+  left: 1090px;
+  top: 0px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9893A3;
+}
+
+@media (max-width: 768px) {
+  .container footer {
+    position: absolute;
+    width: 768px;
+    height: 406px;
+    top: 7174px;
+  }
+  .container footer .contentFooter {
+    width: 687px;
+    height: 211.12px;
+    left: 41px;
+    top: 76px;
+  }
+  .container footer .contentFooter .company {
+    position: static;
+    left: 191px;
+  }
+  .container footer .contentFooter .company h3 {
+    width: 83px;
+    left: 192px;
+  }
+  .container footer .contentFooter .company a {
+    left: 191px;
+  }
+  .container footer .contentFooter .support {
+    left: 386px;
+  }
+  .container footer .contentFooter .support h3 {
+    left: 386px;
+  }
+  .container footer .contentFooter .support a {
+    left: 386px;
+  }
+  .container footer .contentFooter .socialMedia {
+    left: 567px;
+  }
+  .container footer .contentFooter .socialMedia h3 {
+    left: 567px;
+  }
+  .container footer .contentFooter .socialMedia i:nth-of-type(1) {
+    left: 567px;
+  }
+  .container footer .contentFooter .socialMedia i:nth-of-type(2) {
+    left: 611px;
+  }
+  .container footer .contentFooter .socialMedia i:nth-of-type(3) {
+    left: 655px;
+  }
+  .container footer .bottomInfo {
+    width: 688px;
+    height: 24.3px;
+    left: 40px;
+    top: 345px;
+  }
+  .container footer .bottomInfo img {
+    position: static;
+    height: 21.3px;
+  }
+  .container footer .bottomInfo p {
+    position: absolute;
+    width: 194.74px;
+    height: 18px;
+    left: 493.26px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container footer {
+    position: relative;
+    width: 428px;
+    height: 545px;
+    top: 5464px;
+  }
+  .container footer .contentFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    width: 388px;
+    height: 370px;
+    left: 20px;
+    top: 50px;
+  }
+  .container footer .contentFooter .footerPartOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 292px;
+    height: 206px;
+    left: 0px;
+    top: 0px;
+  }
+  .container footer .contentFooter .footerPartOne .product {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartOne .company {
+    position: absolute;
+    left: 191px;
+    top: 0px;
+  }
+  .container footer .contentFooter .footerPartOne .company h3 {
+    width: 83px;
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartOne .company a {
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 301px;
+    height: 104px;
+    left: 0px;
+    top: 60px;
+  }
+  .container footer .contentFooter .footerPartTwo .support {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo .support h3 {
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo .support a {
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo .socialMedia {
+    position: absolute;
+    top: 0px;
+    left: 182px;
+  }
+  .container footer .contentFooter .footerPartTwo .socialMedia h3 {
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(1) {
+    left: 0px;
+  }
+  .container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(2) {
+    left: 44px;
+  }
+  .container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(3) {
+    left: 88px;
+  }
+  .container footer .bottomInfo {
+    width: 388px;
+    height: 26.53px;
+    left: 20px;
+    top: 488px;
+  }
+  .container footer .bottomInfo img {
+    position: static;
+    height: 26.53px;
+    width: 81.17px;
+  }
+  .container footer .bottomInfo p {
+    position: absolute;
+    left: 193.2px;
+    top: 4.27px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

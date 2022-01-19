@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  background-color: #ffffff;
+}
+
+.container header {
+  position: relative;
+  height: 850px;
+}
+
+/* Zmienne */
+/* HEADER */
+/* Navbar */
+.container header .navbar {
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 1280px;
+  height: 51px;
+  left: 80px;
+  top: 40px;
+}
+
+.container header .navbar .logo img {
+  position: static;
+  width: 78.08px;
+  left: calc(50% - 78.08px/2);
+  top: 3.51%;
+  bottom: 3.51%;
+}
+
+.container header .navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  list-style: none;
+  line-height: 22px;
+}
+
+.container header .navbar nav ul li {
+  margin: 0 36px;
+}
+
+.container header .navbar nav ul li a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #9893A3;
+}
+
+.container header .navbar nav ul li a:hover {
+  color: black;
+  border-bottom: 4px solid #9E99FF;
+}
+
+.container header .navbar .buttons button:first-child {
+  margin-right: 16px;
+  position: static;
+  padding: 16px 30px;
+  background: #FFF;
+  color: #6C63FF;
+  font-size: 14px;
+  text-align: center;
+  width: 110px;
+  height: 51px;
+  left: 0px;
+  top: 0px;
+  line-height: 19px;
+  border: 1px solid #6C63FF;
+  border-radius: 2px;
+}
+
+.container header .navbar .buttons button:first-child:hover {
+  cursor: pointer;
+}
+
+.container header .navbar .buttons button:last-child {
+  position: static;
+  padding: 16px 30px;
+  background: #6C63FF;
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  width: 145px;
+  height: 51px;
+  left: 118px;
+  top: 0px;
+  border: 1px solid #6C63FF;
+  border-radius: 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container header .navbar .buttons button:last-child:hover {
+  cursor: pointer;
+}
+
+.container header .navbar i {
+  display: none;
+}
+
+.container header .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 1180px;
+  height: 559px;
+  left: 130px;
+  top: 171px;
+}
+
+.container header .hero .heroContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 489px;
+  height: 477px;
+  left: 0px;
+  top: 41px;
+}
+
+.container header .hero .heroContent h1 {
+  margin-bottom: 30px;
+  position: static;
+  width: 489px;
+  height: 264px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Playfair Display';
+  font-size: 86px;
+  line-height: 88px;
+  letter-spacing: -1px;
+}
+
+.container header .hero .heroContent p {
+  margin-bottom: 30px;
+  position: static;
+  width: 489px;
+  height: 102px;
+  left: calc(50% - 489px/2);
+  top: calc(50% - 102px/2 + 106.5px);
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  color: #9893A3;
+}
+
+.container header .hero .heroContent button {
+  position: static;
+  width: 140px;
+  height: 51px;
+  left: 0px;
+  top: 426px;
+  font-size: 14px;
+  text-align: center;
+  background: #6C63FF;
+  border: 1px solid #6C63FF;
+  color: #FFF;
+  border-radius: 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container header .hero .heroContent button:hover {
+  cursor: pointer;
+  background: #FFF;
+  color: #6C63FF;
+}
+
+.container header .hero img {
+  position: static;
+  width: 642px;
+  height: 559px;
+  left: 538px;
+  top: 559px;
+}
+
+@media (max-width: 768px) {
+  .container header {
+    width: 768px;
+    height: 1237px;
+  }
+  .container header .navbar {
+    width: 688px;
+    height: 52.49px;
+    left: 40px;
+    top: 40px;
+  }
+  .container header .navbar .logo img {
+    position: static;
+    width: 78.08px;
+    height: 28.49px;
+    left: 0px;
+    top: 12px;
+  }
+  .container header .navbar nav {
+    display: none;
+  }
+  .container header .navbar .buttons {
+    display: none;
+  }
+  .container header .navbar i {
+    display: block;
+    position: static;
+    width: 25px;
+    height: 19px;
+    left: 663px;
+    top: 16.75px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
+    color: #6c63ff;
+    font-size: 25px;
+  }
+  .container header .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 688px;
+    height: 982.09px;
+    left: 40px;
+    top: 148px;
+  }
+  .container header .hero .heroContent {
+    width: 688px;
+    height: 353px;
+    left: 0px;
+    top: 0px;
+  }
+  .container header .hero .heroContent h1 {
+    position: static;
+    width: 688px;
+    height: 174px;
+    left: 0px;
+    top: 0px;
+  }
+  .container header .hero .heroContent p {
+    width: 650px;
+    left: 0;
+    right: 5.52%;
+  }
+  .container header .hero img {
+    position: static;
+    width: 688px;
+    height: 599.09px;
+    left: 688px;
+    top: 383px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container header {
+    width: 428px;
+    height: 863px;
+  }
+  .container header .navbar {
+    width: 388px;
+    left: 20px;
+    top: 20px;
+  }
+  .container header .navbar i {
+    position: absolute;
+    width: 25px;
+    height: 19px;
+    left: 363px;
+    top: 16.75px;
+  }
+  .container header .hero {
+    width: 388px;
+    height: 670px;
+    left: 20px;
+    top: 113px;
+  }
+  .container header .hero .heroContent {
+    width: 388px;
+    height: 301px;
+    left: 0px;
+    top: 0px;
+  }
+  .container header .hero .heroContent h1 {
+    margin-bottom: 24px;
+    position: static;
+    width: 388px;
+    height: 100px;
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .container header .hero .heroContent p {
+    margin-bottom: 24px;
+    width: 388px;
+    left: calc(50% - 388px/2);
+    top: calc(50% - 102px/2 + 24.5px);
+  }
+  .container header .hero img {
+    position: static;
+    width: 388px;
+    height: 339px;
+    left: 388px;
+    top: 331px;
+  }
+}
+/*# sourceMappingURL=header.css.map */
