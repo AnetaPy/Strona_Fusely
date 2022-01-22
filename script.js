@@ -1,11 +1,9 @@
 const $openClose = $(".openMenu, .closeMenu");
-const $menuWide = $(
-  ".navbar nav ul li a.features, .navbar nav ul li a.pricing, .navbar nav ul li a.blog, .navbar nav ul li a.contact"
-);
+const $menuWide = $(".navbar nav ul li a.features, .navbar nav ul li a.pricing, .navbar nav ul li a.blog, .navbar nav ul li a.contact");
 const $up = $(".navbar nav ul li a.home, .navbar .logo img");
 const $navigation = $(".navigation");
 
-// Nawigation
+// Navigation
 
 $menuWide.on("click", function () {
   const goToSection = "[data-section=" + $(this).attr("class") + "]";
