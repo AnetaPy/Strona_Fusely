@@ -6,223 +6,230 @@
   font-style: normal
   font-weight: bold
 
-.container
-  margin-left: auto
-  margin-right: auto
-  max-width: 1440px
-  background-color: #ffffff
-
-  header
-    position: relative
-    height: 850px
-  
-  
-
 /* Zmienne */
+
 $fontSizeH1: 86px
 $fontSiezeH2: 60px
 $fontSizeP: 20px
 $fontSizeNav: 16px
 $fontSizeButton: 14px
 
-
-/* HEADER */
-
-/* Navbar */
-
-.container header .navbar 
-  margin-right: auto
+.container
   margin-left: auto
-  display: flex
-  flex-direction: row
-  justify-content: space-between
-  align-items: center
-  position: absolute
-  width: 1280px
-  height: 51px
-  left: 80px
-  top: 40px
-
-  .logo img
-    position: static
-    width: 78.08px
-    left: calc(50% - 78.08px/2)
-    top: 3.51%
-    bottom: 3.51%
-    
-  nav ul
-    display: flex
-    flex-direction: row
-    justify-content: center
-    align-items: flex-start
-    list-style: none
-    line-height: 22px
-
-    li 
-      margin: 0 36px
-
-      a 
-        padding-bottom: 10px
-        text-decoration: none
-        font-size: $fontSizeNav
-        color: #9893A3
-
-      a:hover 
-        color: black
-        border-bottom: 4px solid #9E99FF
-
-  .buttons button:first-child
-    margin-right: 16px
-    position: static
-    padding: 16px 30px
-    background: #FFF
-    color: #6C63FF
-    font-size: $fontSizeButton
-    text-align: center
-    width: 110px
-    height: 51px
-    left: 0px
-    top: 0px 
-    line-height: 19px
-    border: 1px solid #6C63FF
-    border-radius: 2px
-    // transition: .5s
-
-    &:hover 
-      cursor: pointer
-      // background: #6C63FF
-      // color:#FFF
-
-  .buttons button:last-child
-    position: static
-    padding: 16px 30px
-    background: #6C63FF
-    color: #FFF
-    font-size: $fontSizeButton
-    text-align: center
-    width: 145px
-    height: 51px
-    left: 118px
-    top: 0px
-    border: 1px solid #6C63FF
-    border-radius: 2px
-    transition: .5s
-
-    &:hover 
-      cursor: pointer
-      // background: #FFF
-      // color:#6C63FF
-
-  i 
-    display: none
-
-.container header .hero 
-  display: flex
-  flex-direction: row
-  justify-content: space-between
-  align-items: center
-  padding: 0px
-  position: absolute
-  width: 1180px
-  height: 559px
-  left: 130px
-  top: 171px
-
-  .heroContent
-    display: flex
-    flex-direction: column
-    align-items: flex-start
-    padding: 0px
-    position: static
-    width: 489px
-    height: 477px
-    left: 0px
-    top: 41px
-
-    h1 
-      margin-bottom: 30px
-      position: static
-      width: 489px
-      height: 264px
-      left: 0px
-      top: 0px
-      font-family: 'Playfair Display'
-      font-size: $fontSizeH1
-      line-height: 88px
-      letter-spacing: -1px
-
-    p 
-      margin-bottom: 30px
-      position: static
-      width: 489px
-      height: 102px
-      left: calc(50% - 489px/2)
-      top: calc(50% - 102px/2 + 106.5px)
-      font-family: 'Open Sans'
-      font-style: normal
-      font-weight: normal
-      font-size: $fontSizeP
-      line-height: 34px
-      color: #9893A3
-
-    button 
-      position: static
-      width: 140px
-      height: 51px
-      left: 0px
-      top: 426px
-      font-size: $fontSizeButton
-      text-align: center
-      background: #6C63FF
-      border: 1px solid #6C63FF
-      color: #FFF
-      border-radius: 2px
-      transition: .5s
-      
-      &:hover
+  margin-right: auto
+  max-width: 1440px
+  background-color: #ffffff
+  header
+    position: relative
+    height: 850px
+    .navbar 
+      margin: 0 auto
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      position: fixed
+      width: 1440px
+      height: 91px
+      background-color: #fff
+      z-index: 1
+      .logo img
+        position: relative
+        width: 78.08px
+        left: 80px
+        top: 3.51%
+        bottom: 3.51%
         cursor: pointer
-        background: #FFF
-        color:#6C63FF
-      
-  img
-    position: static
-    width: 642px
-    height: 559px
-    left: 538px
-    top: 559px
+      .navigation  
+        nav ul
+          display: flex
+          flex-direction: row
+          justify-content: center
+          align-items: flex-start
+          list-style: none
+          line-height: 22px
+          li 
+            margin: 0 36px
+            a 
+              padding-bottom: 10px
+              text-decoration: none
+              font-size: $fontSizeNav
+              color: #9893A3
+            a:hover
+              color: black
+              border-bottom: 4px solid #9E99FF
+        .buttons 
+          position: absolute
+          right: 80px
+          top: 20px
+          button:first-child
+            margin-right: 16px
+            position: relative
+            padding: 16px 30px
+            background: #FFF
+            color: #6C63FF
+            font-size: $fontSizeButton
+            text-align: center
+            width: 110px
+            height: 51px
+            left: 0px
+            top: 0px 
+            line-height: 19px
+            border: 1px solid #6C63FF
+            border-radius: 2px
+            cursor: pointer
+          button:last-child
+            position: relative
+            padding: 16px 30px
+            background: #6C63FF
+            color: #FFF
+            font-size: $fontSizeButton
+            text-align: center
+            width: 145px
+            height: 51px
+            right: 0px
+            top: 0px
+            border: 1px solid #6C63FF
+            border-radius: 2px
+            transition: .5s
+            cursor: pointer
+      .openMenu i
+        display: none
+      .closeMenu i
+        display: none
+    .hero 
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      padding: 0px
+      position: absolute
+      width: 1180px
+      height: 559px
+      left: 130px
+      top: 171px
+      .heroContent
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        padding: 0px
+        position: static
+        width: 489px
+        height: 477px
+        left: 0px
+        top: 41px
+        h1 
+          margin-bottom: 30px
+          position: static
+          width: 489px
+          height: 264px
+          left: 0px
+          top: 0px
+          font-family: 'Playfair Display'
+          font-size: $fontSizeH1
+          line-height: 88px
+          letter-spacing: -1px
+        p 
+          margin-bottom: 30px
+          position: static
+          width: 489px
+          height: 102px
+          left: calc(50% - 489px/2)
+          top: calc(50% - 102px/2 + 106.5px)
+          font-weight: normal
+          font-size: $fontSizeP
+          line-height: 34px
+          color: #9893A3
+        button 
+          position: static
+          width: 140px
+          height: 51px
+          left: 0px
+          top: 426px
+          font-size: $fontSizeButton
+          text-align: center
+          background: #6C63FF
+          border: 1px solid #6C63FF
+          color: #FFF
+          border-radius: 2px
+          transition: .5s
+          &:hover
+            cursor: pointer
+            background: #FFF
+            color:#6C63FF
+      img
+        position: static
+        width: 642px
+        height: 559px
+        left: 538px
+        top: 559px
 
+// Media
     
 @media (max-width: 768px) 
   .container header
     width: 768px
     height: 1237px
     .navbar 
-      width: 688px
-      height: 52.49px
-      left: 40px
-      top: 40px
       .logo img 
-        position: static
+        position: relative
         width: 78.08px
         height: 28.49px
-        left: 0px
-        top: 12px
-      nav 
+        left: 40px
+        top: 10px
+      .navigation
         display: none
-      .buttons 
-        display: none
-      i
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 428px
+        height: 718px
+        background-color: #fff
+        position: absolute
+        top: 91px
+        left: 1000px
+        transition: 1s
+        nav ul
+          display: flex
+          flex-direction: column
+          align-items: center
+          padding: 0
+          position: absolute
+          top: 130px
+          left: 134.23px
+          z-index: 1
+          li 
+            margin-bottom: 30px
+            a 
+              font-size: 20px
+        .buttons 
+          width: 388px
+          height: 51px
+          top: 582px
+          left: 20px
+          z-index: 1
+          button:first-child
+            margin-right: 20px
+            width: 184px
+            z-index: 1
+          button:last-child
+            width: 184px
+      .navigation.show
+        left: 340px
+      .openMenu i, .closeMenu i
         display: block
-        position: static
+        position: absolute
         width: 25px
         height: 19px
-        left: 663px
-        top: 16.75px
-        flex: none
-        order: 1
+        left: 706.12px
+        top: 40px
+        z-index: 2
         flex-grow: 0
         color: rgba(108, 99, 255, 1)
         font-size: 25px
+      .openMenu.hide, .closeMenu.hide
+        display: none
     .hero
       display: flex
       flex-direction: column
@@ -233,25 +240,21 @@ $fontSizeButton: 14px
       height: 982.09px
       left: 40px
       top: 148px
-    
       .heroContent
         width: 688px
         height: 353px
         left: 0px
         top: 0px
-    
         h1 
           position: static
           width: 688px
           height: 174px
           left: 0px
           top: 0px
-    
         p 
           width: 650px
           left: 0
           right: 5.52%
-                        
       img
         position: static
         width: 688px
@@ -265,27 +268,27 @@ $fontSizeButton: 14px
     width: 428px
     height: 863px
     .navbar 
-      width: 388px
-      left: 20px
-      top: 20px
-      i
-        position: absolute
-        width: 25px
-        height: 19px
-        left: 363px
-        top: 16.75px
+      width: 428px
+      left: 0px
+      top: 0px
+      .logo img 
+        left: 20px
+      .navigation
+        left: 500px
+      .navigation.show
+        left: 0px
+      .openMenu i, .closeMenu i
+        left: 383px
     .hero
       width: 388px
       height: 670px
       left: 20px
       top: 113px
-    
       .heroContent
         width: 388px
         height: 301px
         left: 0px
         top: 0px
-    
         h1 
           margin-bottom: 24px
           position: static
@@ -293,13 +296,11 @@ $fontSizeButton: 14px
           height: 100px
           font-size: 46px
           line-height: 50px
-    
         p 
           margin-bottom: 24px
           width: 388px
           left: calc(50% - 388px/2)
           top: calc(50% - 102px/2 + 24.5px)
-                        
       img
         position: static
         width: 388px

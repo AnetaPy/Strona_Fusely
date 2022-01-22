@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="sass/main.css" />
     <link rel="stylesheet" href="sass/banner.css" />
     <link rel="stylesheet" href="sass/footer.css" />
-
     <title>Fusely</title>
   </head>
   <body>
@@ -33,19 +32,22 @@
               alt="Company's logo with the name fusely"
             />
           </div>
-          <nav>
-            <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">Features</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="buttons">
-            <button>Log in</button><button>Get Started</button>
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a class="home" href="#">Home</a></li>
+                <li><a class="features" href="#">Features</a></li>
+                <li><a class="pricing" href="#">Pricing</a></li>
+                <li><a class="blog" href="#">Blog</a></li>
+                <li><a class="contact" href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="buttons">
+              <button>Log in</button><button>Get Started</button>
+            </div>
           </div>
-          <i class="fas fa-bars"></i>
+          <div class="openMenu"><i class="fas fa-bars"></i></div>
+          <div class="closeMenu hide"><i class="fas fa-times"></i></div>
         </div>
         <div class="hero">
           <div class="heroContent">
@@ -60,7 +62,7 @@
         </div>
       </header>
       <main>
-        <div class="partners">
+        <div data-section="features" class="partners">
           <img src="img/partner1.jpg" alt="binator logo" />
           <img src="img/partner2.jpg" alt="buyme logo" />
           <img src="img/partner3.jpg" alt="loogipsum logo" />
@@ -100,7 +102,7 @@
           </div>
           <img src="img/Section Image.jpg" alt="" />
         </section>
-        <section class="pricing">
+        <section data-section="pricing" class="pricing">
           <h2>Choose your plan</h2>
           <div class="pricingCardsGrid">
             <div class="starter">
@@ -135,7 +137,7 @@
             </div>
           </div>
         </section>
-        <section class="blog">
+        <section data-section="blog" class="blog">
           <div class="heading">
             <h2>From our blog</h2>
             <button>View all</button>
@@ -185,7 +187,7 @@
         </div>
       </section>
       <footer>
-        <div class="contentFooter">
+        <div data-section="contact" class="contentFooter">
           <div class="footerPartOne">
             <div class="product">
               <h3>Product</h3>
@@ -224,5 +226,7 @@
         </div>
       </footer>
     </div>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
