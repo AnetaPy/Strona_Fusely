@@ -17,110 +17,115 @@
         height: 212.55px
         left: 270px
         top: 244.54px
-        .product, .company, .support, .socialMedia
-            margin-right: 165px
-            position: static
-            width: 97px
-            height: 206px
-            left: 0px
-            top: 0px
-            h3 
+        .footerPartOne
+            width: 50%
+            .product, .company
                 position: absolute
-                width: 69px
-                height: 24px
+                width: 97px
+                height: 206px
                 left: 0px
                 top: 0px
-                font-family: 'Open Sans'
-                font-style: normal
-                font-weight: 600
-                font-size: 18px
-                line-height: 24px
-                color: #2F2E41
-            a 
-                position: absolute
-                height: 26px
-                left: 0
-                text-decoration: none
-                font-family: Open Sans
-                font-style: normal
-                font-weight: normal
-                font-size: 16px
-                line-height: 26px
-                color: #717082
-            a:nth-of-type(1)
-                width: 97px
-                top: 44px
-            a:nth-of-type(2)
-                width: 65px
-                top: 78px
-            a:nth-of-type(3)
-                width: 51px
-                top: 112px
-            a:nth-of-type(4)
-                width: 31px
-                top: 146px
-            a:nth-of-type(5)
-                width: 77px
-                top: 180px
-        .company 
-            position: static
-            width: 101px
-            left: 262px
-            h3 
-                width: 83px
-                left: 263px
-            a 
-                left: 262px
-            a:nth-of-type(1)
-                width: 46px
-                top: 44px
-            a:nth-of-type(2)
-                width: 33px
-                top: 78px
-            a:nth-of-type(3)
-                width: 88px
-                top: 112px
-            a:nth-of-type(4)
-                width: 97px
-                top: 146px
-            a:nth-of-type(5)
+                h3 
+                    position: absolute
+                    width: 69px
+                    height: 24px
+                    left: 0px
+                    top: 0px
+                    font-weight: 600
+                    font-size: 18px
+                    line-height: 24px
+                    color: #2F2E41
+                ul 
+                    width: 97px
+                    height: 162px
+                    position: relative
+                    top: 44px
+                    li 
+                        position: absolute
+                        height: 26px
+                        left: 0
+                        list-style: none
+                        a
+                            font-weight: normal
+                            font-size: 16px
+                            line-height: 26px
+                            color: #717082
+                            text-decoration: none
+                    li:nth-of-type(1)
+                        top: 0px
+                    li:nth-of-type(2)
+                        top: 34px
+                    li:nth-of-type(3)
+                        top: 68px
+                    li:nth-of-type(4)
+                        top: 102px
+                    li:nth-of-type(5)
+                        top: 136px
+            .company
                 width: 101px
-                top: 180px
-        .support 
-            position: static
-            width: 87px
-            left: 528px
-            h3 
-                width: 70px
-                left: 528px
-            a 
-                left: 528px
-            a:nth-of-type(1)
-                width: 87px
-                top: 44px
-            a:nth-of-type(2)
-                width: 80px
-                top: 78px
-        .socialMedia
-            position: static
-            width: 120px
-            left: 780px
-            h3 
-                width: 107px
-                left: 781px
-            i 
+                left: 262px
+                h3 
+                    width: 83px
+                    left: 0px
+                ul
+                    width: 101px
+        .footerPartTwo
+            width: 50%
+            .support, .socialMedia
                 position: absolute
-                font-size: 32px
-                width: 32px
-                height: 32px
-                top: 44px
-                color: grey
-            i:nth-of-type(1)
+                width: 87px
+                height: 104px
+                left: 528px
+                top: 0px
+                h3 
+                    position: absolute
+                    width: 69px
+                    height: 24px
+                    left: 0px
+                    top: 0px
+                    font-weight: 600
+                    font-size: 18px
+                    line-height: 24px
+                    color: #2F2E41
+                ul 
+                    width: 87px
+                    height: 60px
+                    position: relative
+                    top: 44px
+                    li 
+                        position: absolute
+                        height: 26px
+                        left: 0
+                        list-style: none
+                        a
+                            font-weight: normal
+                            font-size: 16px
+                            line-height: 26px
+                            color: #717082
+                            text-decoration: none
+                    li:nth-of-type(1)
+                        top: 0px
+                    li:nth-of-type(2)
+                        top: 34px
+            .socialMedia
+                width: 120px
+                height: 76px
                 left: 780px
-            i:nth-of-type(2)
-                left: 824px
-            i:nth-of-type(3)
-                left: 868px
+                h3 
+                    width: 107px
+                i 
+                    position: absolute
+                    font-size: 32px
+                    width: 32px
+                    height: 32px
+                    top: 44px
+                    color: grey
+                i:nth-of-type(1)
+                    left: 0px
+                i:nth-of-type(2)
+                    left: 44px
+                i:nth-of-type(3)
+                    left: 88px
     .bottomInfo
         display: flex
         flex-direction: row
@@ -144,8 +149,6 @@
             height: 16px
             left: 1090px
             top: 0px
-            font-family: Open Sans
-            font-style: normal
             font-weight: normal
             font-size: 12px
             line-height: 16px
@@ -164,31 +167,16 @@
             height: 211.12px
             left: 41px
             top: 76px
-            .company 
-                position: static
-                left: 191px
-                h3 
-                    width: 83px
-                    left: 192px
-                a 
+            .footerPartOne
+                width: 50%
+                .company
                     left: 191px
-            .support 
-                left: 386px
-                h3 
+            .footerPartTwo
+                width: 50%
+                .support
                     left: 386px
-                a 
-                    left: 386px
-            .socialMedia
-                left: 567px
-                h3 
-                    left: 567px
-               
-                i:nth-of-type(1)
-                    left: 567px
-                i:nth-of-type(2)
-                    left: 611px
-                i:nth-of-type(3)
-                    left: 655px
+                .socialMedia
+                    left: 568px
         .bottomInfo
             width: 688px
             height: 24.3px
@@ -222,7 +210,6 @@
                 display: flex
                 flex-direction: row
                 align-items: flex-start
-                padding: 0px
                 position: static
                 width: 292px
                 height: 206px
@@ -238,8 +225,6 @@
                     top: 0px
                     h3 
                         width: 83px
-                        left: 0px
-                    a 
                         left: 0px
             .footerPartTwo
                 display: flex
@@ -257,15 +242,12 @@
                     left: 0px
                     h3 
                         left: 0px
-                    a 
-                        left: 0px
                 .socialMedia
                     position: absolute
                     top: 0px
                     left: 182px
                     h3 
                         left: 0px
-
                     i:nth-of-type(1)
                         left: 0px
                     i:nth-of-type(2)
@@ -285,31 +267,3 @@
                 position: absolute
                 left: 193.2px
                 top: 4.27px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -28,144 +28,151 @@
   top: 244.54px;
 }
 
-.container footer .contentFooter .product, .container footer .contentFooter .company, .container footer .contentFooter .support, .container footer .contentFooter .socialMedia {
-  margin-right: 165px;
-  position: static;
+.container footer .contentFooter .footerPartOne {
+  width: 50%;
+}
+
+.container footer .contentFooter .footerPartOne .product, .container footer .contentFooter .footerPartOne .company {
+  position: absolute;
   width: 97px;
   height: 206px;
   left: 0px;
   top: 0px;
 }
 
-.container footer .contentFooter .product h3, .container footer .contentFooter .company h3, .container footer .contentFooter .support h3, .container footer .contentFooter .socialMedia h3 {
+.container footer .contentFooter .footerPartOne .product h3, .container footer .contentFooter .footerPartOne .company h3 {
   position: absolute;
   width: 69px;
   height: 24px;
   left: 0px;
   top: 0px;
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #2F2E41;
 }
 
-.container footer .contentFooter .product a, .container footer .contentFooter .company a, .container footer .contentFooter .support a, .container footer .contentFooter .socialMedia a {
+.container footer .contentFooter .footerPartOne .product ul, .container footer .contentFooter .footerPartOne .company ul {
+  width: 97px;
+  height: 162px;
+  position: relative;
+  top: 44px;
+}
+
+.container footer .contentFooter .footerPartOne .product ul li, .container footer .contentFooter .footerPartOne .company ul li {
   position: absolute;
   height: 26px;
   left: 0;
-  text-decoration: none;
-  font-family: Open Sans;
-  font-style: normal;
+  list-style: none;
+}
+
+.container footer .contentFooter .footerPartOne .product ul li a, .container footer .contentFooter .footerPartOne .company ul li a {
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #717082;
+  text-decoration: none;
 }
 
-.container footer .contentFooter .product a:nth-of-type(1), .container footer .contentFooter .company a:nth-of-type(1), .container footer .contentFooter .support a:nth-of-type(1), .container footer .contentFooter .socialMedia a:nth-of-type(1) {
-  width: 97px;
-  top: 44px;
+.container footer .contentFooter .footerPartOne .product ul li:nth-of-type(1), .container footer .contentFooter .footerPartOne .company ul li:nth-of-type(1) {
+  top: 0px;
 }
 
-.container footer .contentFooter .product a:nth-of-type(2), .container footer .contentFooter .company a:nth-of-type(2), .container footer .contentFooter .support a:nth-of-type(2), .container footer .contentFooter .socialMedia a:nth-of-type(2) {
-  width: 65px;
-  top: 78px;
+.container footer .contentFooter .footerPartOne .product ul li:nth-of-type(2), .container footer .contentFooter .footerPartOne .company ul li:nth-of-type(2) {
+  top: 34px;
 }
 
-.container footer .contentFooter .product a:nth-of-type(3), .container footer .contentFooter .company a:nth-of-type(3), .container footer .contentFooter .support a:nth-of-type(3), .container footer .contentFooter .socialMedia a:nth-of-type(3) {
-  width: 51px;
-  top: 112px;
+.container footer .contentFooter .footerPartOne .product ul li:nth-of-type(3), .container footer .contentFooter .footerPartOne .company ul li:nth-of-type(3) {
+  top: 68px;
 }
 
-.container footer .contentFooter .product a:nth-of-type(4), .container footer .contentFooter .company a:nth-of-type(4), .container footer .contentFooter .support a:nth-of-type(4), .container footer .contentFooter .socialMedia a:nth-of-type(4) {
-  width: 31px;
-  top: 146px;
+.container footer .contentFooter .footerPartOne .product ul li:nth-of-type(4), .container footer .contentFooter .footerPartOne .company ul li:nth-of-type(4) {
+  top: 102px;
 }
 
-.container footer .contentFooter .product a:nth-of-type(5), .container footer .contentFooter .company a:nth-of-type(5), .container footer .contentFooter .support a:nth-of-type(5), .container footer .contentFooter .socialMedia a:nth-of-type(5) {
-  width: 77px;
-  top: 180px;
+.container footer .contentFooter .footerPartOne .product ul li:nth-of-type(5), .container footer .contentFooter .footerPartOne .company ul li:nth-of-type(5) {
+  top: 136px;
 }
 
-.container footer .contentFooter .company {
-  position: static;
+.container footer .contentFooter .footerPartOne .company {
   width: 101px;
   left: 262px;
 }
 
-.container footer .contentFooter .company h3 {
+.container footer .contentFooter .footerPartOne .company h3 {
   width: 83px;
-  left: 263px;
+  left: 0px;
 }
 
-.container footer .contentFooter .company a {
-  left: 262px;
-}
-
-.container footer .contentFooter .company a:nth-of-type(1) {
-  width: 46px;
-  top: 44px;
-}
-
-.container footer .contentFooter .company a:nth-of-type(2) {
-  width: 33px;
-  top: 78px;
-}
-
-.container footer .contentFooter .company a:nth-of-type(3) {
-  width: 88px;
-  top: 112px;
-}
-
-.container footer .contentFooter .company a:nth-of-type(4) {
-  width: 97px;
-  top: 146px;
-}
-
-.container footer .contentFooter .company a:nth-of-type(5) {
+.container footer .contentFooter .footerPartOne .company ul {
   width: 101px;
-  top: 180px;
 }
 
-.container footer .contentFooter .support {
-  position: static;
+.container footer .contentFooter .footerPartTwo {
+  width: 50%;
+}
+
+.container footer .contentFooter .footerPartTwo .support, .container footer .contentFooter .footerPartTwo .socialMedia {
+  position: absolute;
   width: 87px;
+  height: 104px;
   left: 528px;
+  top: 0px;
 }
 
-.container footer .contentFooter .support h3 {
-  width: 70px;
-  left: 528px;
+.container footer .contentFooter .footerPartTwo .support h3, .container footer .contentFooter .footerPartTwo .socialMedia h3 {
+  position: absolute;
+  width: 69px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #2F2E41;
 }
 
-.container footer .contentFooter .support a {
-  left: 528px;
-}
-
-.container footer .contentFooter .support a:nth-of-type(1) {
+.container footer .contentFooter .footerPartTwo .support ul, .container footer .contentFooter .footerPartTwo .socialMedia ul {
   width: 87px;
+  height: 60px;
+  position: relative;
   top: 44px;
 }
 
-.container footer .contentFooter .support a:nth-of-type(2) {
-  width: 80px;
-  top: 78px;
+.container footer .contentFooter .footerPartTwo .support ul li, .container footer .contentFooter .footerPartTwo .socialMedia ul li {
+  position: absolute;
+  height: 26px;
+  left: 0;
+  list-style: none;
 }
 
-.container footer .contentFooter .socialMedia {
-  position: static;
+.container footer .contentFooter .footerPartTwo .support ul li a, .container footer .contentFooter .footerPartTwo .socialMedia ul li a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717082;
+  text-decoration: none;
+}
+
+.container footer .contentFooter .footerPartTwo .support ul li:nth-of-type(1), .container footer .contentFooter .footerPartTwo .socialMedia ul li:nth-of-type(1) {
+  top: 0px;
+}
+
+.container footer .contentFooter .footerPartTwo .support ul li:nth-of-type(2), .container footer .contentFooter .footerPartTwo .socialMedia ul li:nth-of-type(2) {
+  top: 34px;
+}
+
+.container footer .contentFooter .footerPartTwo .socialMedia {
   width: 120px;
+  height: 76px;
   left: 780px;
 }
 
-.container footer .contentFooter .socialMedia h3 {
+.container footer .contentFooter .footerPartTwo .socialMedia h3 {
   width: 107px;
-  left: 781px;
 }
 
-.container footer .contentFooter .socialMedia i {
+.container footer .contentFooter .footerPartTwo .socialMedia i {
   position: absolute;
   font-size: 32px;
   width: 32px;
@@ -174,16 +181,16 @@
   color: grey;
 }
 
-.container footer .contentFooter .socialMedia i:nth-of-type(1) {
-  left: 780px;
+.container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(1) {
+  left: 0px;
 }
 
-.container footer .contentFooter .socialMedia i:nth-of-type(2) {
-  left: 824px;
+.container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(2) {
+  left: 44px;
 }
 
-.container footer .contentFooter .socialMedia i:nth-of-type(3) {
-  left: 868px;
+.container footer .contentFooter .footerPartTwo .socialMedia i:nth-of-type(3) {
+  left: 88px;
 }
 
 .container footer .bottomInfo {
@@ -222,8 +229,6 @@
   height: 16px;
   left: 1090px;
   top: 0px;
-  font-family: Open Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
@@ -243,40 +248,20 @@
     left: 41px;
     top: 76px;
   }
-  .container footer .contentFooter .company {
-    position: static;
+  .container footer .contentFooter .footerPartOne {
+    width: 50%;
+  }
+  .container footer .contentFooter .footerPartOne .company {
     left: 191px;
   }
-  .container footer .contentFooter .company h3 {
-    width: 83px;
-    left: 192px;
+  .container footer .contentFooter .footerPartTwo {
+    width: 50%;
   }
-  .container footer .contentFooter .company a {
-    left: 191px;
-  }
-  .container footer .contentFooter .support {
+  .container footer .contentFooter .footerPartTwo .support {
     left: 386px;
   }
-  .container footer .contentFooter .support h3 {
-    left: 386px;
-  }
-  .container footer .contentFooter .support a {
-    left: 386px;
-  }
-  .container footer .contentFooter .socialMedia {
-    left: 567px;
-  }
-  .container footer .contentFooter .socialMedia h3 {
-    left: 567px;
-  }
-  .container footer .contentFooter .socialMedia i:nth-of-type(1) {
-    left: 567px;
-  }
-  .container footer .contentFooter .socialMedia i:nth-of-type(2) {
-    left: 611px;
-  }
-  .container footer .contentFooter .socialMedia i:nth-of-type(3) {
-    left: 655px;
+  .container footer .contentFooter .footerPartTwo .socialMedia {
+    left: 568px;
   }
   .container footer .bottomInfo {
     width: 688px;
@@ -329,7 +314,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    padding: 0px;
     position: static;
     width: 292px;
     height: 206px;
@@ -348,9 +332,6 @@
   }
   .container footer .contentFooter .footerPartOne .company h3 {
     width: 83px;
-    left: 0px;
-  }
-  .container footer .contentFooter .footerPartOne .company a {
     left: 0px;
   }
   .container footer .contentFooter .footerPartTwo {
@@ -377,9 +358,6 @@
     left: 0px;
   }
   .container footer .contentFooter .footerPartTwo .support h3 {
-    left: 0px;
-  }
-  .container footer .contentFooter .footerPartTwo .support a {
     left: 0px;
   }
   .container footer .contentFooter .footerPartTwo .socialMedia {
