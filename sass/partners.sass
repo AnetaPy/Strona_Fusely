@@ -1,0 +1,52 @@
+.container main
+  margin-right: auto
+  margin-left: auto
+  position: absolute
+  width: 1440px
+  top: 850px
+  .partners
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    padding: 0px
+    position: relative
+    width: 900px
+    height: 35.42px
+    left: 269px
+    top: 0px
+
+@media (max-width: 768px) 
+  .container main
+    position: absolute
+    width: 688px
+    height: 5937px
+    left: 40px
+    top: 1237px
+    .partners
+      position: static
+      width: 688px
+      left: 0px
+      top: 0px
+
+@media (max-width: 428px) 
+  .container main
+    position: absolute
+    width: 388px
+    height: 5010.48px
+    left: 20px
+    top: 863px
+    .partners
+      flex-wrap: wrap
+      justify-content: start
+      position: relative
+      width: 388px
+      height: 95px
+      left: 0px
+      top: 0px
+      img 
+        margin-right: 45.74px
+      img:nth-of-type(3)
+        margin-right: 0
+      img:nth-of-type(4)
+        margin-left: 67.41px

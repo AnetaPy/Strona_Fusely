@@ -1,0 +1,199 @@
+/* Variables */
+.container main section.detailed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  width: 1180px;
+  height: 442.78px;
+  left: 129px;
+  top: 220px;
+}
+
+.container main section.detailed .contentDetailed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: static;
+  left: 66.1%;
+  right: 0%;
+  top: 15.11%;
+  bottom: 15.11%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.container main section.detailed .contentDetailed h2 {
+  margin-bottom: 24px;
+  position: static;
+  width: 400px;
+  left: calc(50% - 400px/2);
+  top: 0%;
+  bottom: 58.58%;
+  font-family: 'Playfair Display';
+  font-size: 60px;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.container main section.detailed .contentDetailed p {
+  margin-bottom: 24px;
+  position: static;
+  width: 400px;
+  left: calc(50% - 400px/2);
+  top: 49.19%;
+  bottom: 17.8%;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  color: #9893A3;
+}
+
+.container main section.detailed .contentDetailed a {
+  position: static;
+  width: 100px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -1px;
+  color: #2F2E41;
+  border-bottom: 10px solid rgba(197, 194, 255, 0.5);
+}
+
+.container main section.detailed img {
+  position: static;
+  left: 0%;
+  right: 49.15%;
+  top: 100%;
+  bottom: -100%;
+}
+
+@media (max-width: 768px) {
+  .container main section.detailed {
+    margin-top: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    height: 759.72px;
+    width: 688px;
+    left: 0px;
+    top: 0px;
+  }
+  .container main section.detailed .contentDetailed {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 73.41%;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .container main section.detailed .contentDetailed h2 {
+    position: static;
+    width: 688px;
+    left: 0%;
+    top: 0%;
+    bottom: 68.32%;
+  }
+  .container main section.detailed .contentDetailed p {
+    position: static;
+    width: 688px;
+    left: 0%;
+    top: 43.56%;
+    bottom: 22.77%;
+  }
+  .container main section.detailed .contentDetailed a {
+    position: static;
+    width: 92px;
+    height: 20px;
+    left: calc(50% - 92px/2);
+    top: 0px;
+    text-decoration: none;
+  }
+  .container main section.detailed img {
+    position: static;
+    height: 507.72px;
+    width: 688px;
+    left: 100%;
+    right: -100%;
+    top: 0px;
+    bottom: 0%;
+  }
+}
+
+@media (max-width: 428px) {
+  .container main section.detailed {
+    margin-top: 100px;
+    position: relative;
+    height: 509px;
+    width: 388px;
+    left: 0px;
+    top: 0px;
+  }
+  .container main section.detailed .contentDetailed {
+    position: static;
+    width: 388px;
+    left: calc(50% - 388px/2 - 0px);
+    top: 0%;
+    bottom: 61.49%;
+  }
+  .container main section.detailed .contentDetailed h2 {
+    margin-bottom: 16px;
+    position: static;
+    width: 388px;
+    height: 40px;
+    left: 0%;
+    top: 0%;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .container main section.detailed .contentDetailed p {
+    margin-bottom: 16px;
+    position: static;
+    width: 388px;
+    left: calc(50% - 388px/2);
+    top: 28.57%;
+    bottom: 19.39%;
+  }
+  .container main section.detailed img {
+    margin-top: 32px;
+    height: 283px;
+    width: 388px;
+    left: 100%;
+    top: 44.4%;
+  }
+}
+/*# sourceMappingURL=detailed-section.css.map */

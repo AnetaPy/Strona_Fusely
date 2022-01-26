@@ -1,0 +1,182 @@
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Open Sans', sans-serif
+  font-style: normal
+  font-weight: bold
+
+/* Variables */
+
+$fontSizeH1: 86px
+$fontSiezeH2: 60px
+$fontSizeP: 20px
+$fontSizeNav: 16px
+$fontSizeButton: 14px
+
+.container
+  margin-left: auto
+  margin-right: auto
+  max-width: 1440px
+  background-color: #ffffff
+  header
+    position: relative
+    height: 850px
+    .navbar 
+      margin: 0 auto
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      position: fixed
+      width: 1440px
+      height: 91px
+      background-color: #fff
+      z-index: 1
+      .logo img
+        position: relative
+        width: 78.08px
+        left: 80px
+        top: 3.51%
+        bottom: 3.51%
+        cursor: pointer
+      .navigation  
+        nav ul
+          display: flex
+          flex-direction: row
+          justify-content: center
+          align-items: flex-start
+          list-style: none
+          line-height: 22px
+          li 
+            margin: 0 36px
+            a 
+              padding-bottom: 10px
+              text-decoration: none
+              font-size: $fontSizeNav
+              color: #9893A3
+            a:hover
+              color: black
+              border-bottom: 4px solid #9E99FF
+        .buttons 
+          position: absolute
+          right: 80px
+          top: 20px
+          button:first-child
+            margin-right: 16px
+            position: relative
+            padding: 16px 30px
+            background: #FFF
+            color: #6C63FF
+            font-size: $fontSizeButton
+            text-align: center
+            width: 110px
+            height: 51px
+            left: 0px
+            top: 0px 
+            line-height: 19px
+            border: 1px solid #6C63FF
+            border-radius: 2px
+            cursor: pointer
+          button:last-child
+            position: relative
+            padding: 16px 30px
+            background: #6C63FF
+            color: #FFF
+            font-size: $fontSizeButton
+            text-align: center
+            width: 145px
+            height: 51px
+            right: 0px
+            top: 0px
+            border: 1px solid #6C63FF
+            border-radius: 2px
+            transition: .5s
+            cursor: pointer
+      .openMenu i
+        display: none
+      .closeMenu i
+        display: none
+
+@media (max-width: 768px) 
+  .container header
+    width: 768px
+    height: 1237px
+    .navbar 
+        width: 768px
+      .logo img 
+        position: relative
+        width: 78.08px
+        height: 28.49px
+        left: 40px
+        top: 10px
+      .navigation
+        display: none
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 428px
+        height: 718px
+        background-color: #fff
+        position: absolute
+        top: 91px
+        left: 1000px
+        transition: 1s
+        nav ul
+          display: flex
+          flex-direction: column
+          align-items: center
+          padding: 0
+          position: absolute
+          top: 130px
+          left: 134.23px
+          z-index: 1
+          li 
+            margin-bottom: 30px
+            a 
+              font-size: 20px
+        .buttons 
+          width: 388px
+          height: 51px
+          top: 582px
+          left: 20px
+          z-index: 1
+          button:first-child
+            margin-right: 20px
+            width: 184px
+            z-index: 1
+          button:last-child
+            width: 184px
+      .navigation.show
+        left: 340px
+      .openMenu i, .closeMenu i
+        display: block
+        position: absolute
+        width: 25px
+        height: 19px
+        left: 703px
+        top: 40px
+        z-index: 2
+        flex-grow: 0
+        color: rgba(108, 99, 255, 1)
+        font-size: 25px
+      .openMenu.hide, .closeMenu.hide
+        display: none    
+    
+@media (max-width: 428px) 
+  .container header
+    width: 428px
+    height: 863px
+    .navbar 
+      width: 428px
+      left: 0px
+      top: 0px
+      .logo img 
+        left: 20px
+      .navigation
+        left: 500px
+      .navigation.show
+        left: 0px
+      .openMenu i, .closeMenu i
+        left: 383px
