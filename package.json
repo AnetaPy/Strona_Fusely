@@ -1,0 +1,27 @@
+{
+  "name": "fusely",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnetaPy/Strona_Fusely.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnetaPy/Strona_Fusely/issues"
+  },
+  "homepage": "https://github.com/AnetaPy/Strona_Fusely#readme"
+}
