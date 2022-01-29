@@ -2,6 +2,7 @@
   "name": "fusely",
   "source": "index.html",
   "scripts": {
+    "watch": "parcel watch",
     "start": "parcel serve index.html",
     "build": "parcel build"
   },
