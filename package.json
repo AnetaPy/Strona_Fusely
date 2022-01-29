@@ -1,19 +1,14 @@
 {
-  "name": "fusely",
-  "source": "index.html",
+  "name": "01_Stronka_figma",
+  "version": "1.0.0",
+  "description": "A fully responsive website, based on a Figma project.",
+  "main": "script.js",
   "scripts": {
     "watch": "parcel watch",
     "start": "parcel serve index.html",
-    "build": "parcel build"
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.2.1"
-  },
-  "description": "",
-  "version": "1.0.0",
-  "main": "script.js",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AnetaPy/Strona_Fusely.git"
@@ -24,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/AnetaPy/Strona_Fusely/issues"
   },
-  "homepage": "https://github.com/AnetaPy/Strona_Fusely#readme"
+  "homepage": "https://github.com/AnetaPy/Strona_Fusely#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
 }
