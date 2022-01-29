@@ -1,0 +1,117 @@
+.container section.banner {
+  position: relative;
+  width: 900px;
+  height: 296px;
+  left: 270px;
+  top: 3934px;
+  background: #2F2E41;
+  border-radius: 2px;
+}
+
+.container section.banner .frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 732px;
+  height: 128px;
+  left: 84px;
+  top: 84px;
+  border-radius: 2px;
+}
+
+.container section.banner .frame h3 {
+  margin-right: 200px;
+  position: static;
+  width: 346px;
+  height: 128px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+.container section.banner .frame button {
+  position: static;
+  width: 186px;
+  height: 54px;
+  left: 546px;
+  top: 37px;
+  background: #6C63FF;
+  border: 1px solid #6C63FF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 2px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .container section.banner {
+    position: absolute;
+    width: 768px;
+    left: 0px;
+    top: 6878px;
+  }
+  .container section.banner .frame {
+    width: 642px;
+    left: 63px;
+  }
+  .container section.banner .frame h3 {
+    margin-right: 100px;
+    position: absolute;
+    width: 356px;
+    left: 0px;
+    top: 0px;
+  }
+  .container section.banner .frame button {
+    position: absolute;
+    left: 456px;
+    top: 38px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container section.banner {
+    position: absolute;
+    width: 428px;
+    height: 333px;
+    top: 5994px;
+  }
+  .container section.banner .frame {
+    width: 388px;
+    height: 190px;
+    left: 20px;
+    top: 72px;
+  }
+  .container section.banner .frame h3 {
+    margin-right: 0px;
+    width: 356px;
+    left: 16px;
+    font-size: 34px;
+    text-align: center;
+  }
+  .container section.banner .frame button {
+    position: absolute;
+    left: 101px;
+    top: 136px;
+  }
+}
+
+/*# sourceMappingURL=index.6d4174fb.css.map */
