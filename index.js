@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 const $openClose = $(".openMenu, .closeMenu");
 const $menuWide = $(
   ".navbar nav ul li a.features, .navbar nav ul li a.pricing, .navbar nav ul li a.blog, .navbar nav ul li a.contact"

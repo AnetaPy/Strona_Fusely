@@ -1,13 +1,14 @@
 {
-  "name": "01_Stronka_figma",
+  "name": "fusely",
   "version": "1.0.0",
   "description": "A fully responsive website, based on a Figma project.",
   "main": "script.js",
   "scripts": {
     "watch": "parcel watch",
-    "start": "parcel serve index.html",
+    "start": "parcel ./*.html",
     "build": "parcel build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://anetapy.github.io/fusely/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/AnetaPy/Strona_Fusely#readme",
   "devDependencies": {
     "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "jquery": "^3.6.0"
   }
 }
