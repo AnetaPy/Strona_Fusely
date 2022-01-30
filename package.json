@@ -6,7 +6,7 @@
     "watch": "parcel watch",
     "start": "parcel ./*.html",
     "build": "parcel build",
-    "predeploy": "npm rm -rf dist && parcel build ./*.html --public-url https://anetapy.github.io/fusely/",
+    "predeploy": "parcel build ./*.html --public-url https://anetapy.github.io/fusely/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
