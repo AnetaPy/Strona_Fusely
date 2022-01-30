@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "A fully responsive website, based on a Figma project.",
   "scripts": {
-    "watch": "parcel watch",
     "start": "parcel ./*.html",
-    "build": "parcel build",
-    "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./*.html --no-minify --public-url https://anetapy.github.io/fusely/",
-    "prebuild": "shx rm -rf dist/*",
     "predeploy": "shx rm -rf dist/* && parcel build ./*.html --public-url https://anetapy.github.io/fusely/",
     "deploy": "gh-pages -d dist"
   },
