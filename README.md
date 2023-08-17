@@ -1,6 +1,6 @@
 # Fusely - website
 
-A fully responsive website, based on a Figma project.
+A fully responsive website, based on a Figma project
 
 [Check my demo here.](https://anetapy.github.io/fusely/)
 
